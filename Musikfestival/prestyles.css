@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+header h2, header p {
+  background-color: rgba(0,0,0,0.5);
+  width: 40%;
+  margin: 0 auto;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav li {
+  display: inline;
+  font-size: 17px;
+  color: #fff2e6;
+  margin: 0 40px;
+  padding: 5px 10px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+}
+
+nava {
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 150px;
+}
+
+h2, h3, h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+button {
+  background: none;
+  border: 4px solid #C27BA0;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.info img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.music-text {
+  width: 40%;
+  padding: 4% 5%;
+  margin: 0;
+}
+
+.ingress {
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.day {
+  padding: 5% 10%;
+}
+
+.day li {
+  margin: 20% 0;
+  font-size: 18px;
+}
+
+.yellow {
+  background-color: #FF9900;
+}
+
+.green {
+  background-color: #6AA84F;
+}
+
+.purple {
+  background-color: #C27BA0;
+}
+
+.message {
+  background-color: #E04C70;
+  color: #fff;
+  margin: 0;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+footer {
+  padding: 2% 5%;
+  text-align: center;
+  font-size: 15px;
+  color: #444;
+  background-color: #eee;
+}
+
+
+#artists {
+  padding: 2% 10% 5%;
+  text-align: center;
+}
+
+
+#artists img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 70px;
+}
+
+/* MARKDOWN */
+#markdown {
+  padding: 5% 10%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eee;
+}
+
+#markdown h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+#markdown h1 {
+  font-size: 3rem;
+}
+
+#markdown pre {
+  background-color: #ddd;
+  padding: 20px 30px;
+  font-size: 1.1rem;
+  white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;
+}
+
+
+#markdown .hljs-title, .hljs-localvars, .hljs-chunk, .hljs-decorator, .hljs-built_in, .hljs-identifier, .vhdl .hljs-literal, .hljs-id, .css .hljs-function {
+    color: #268bd2;
+}
+
+#markdown .hljs-attribute, .hljs-variable, .lisp .hljs-body, .smalltalk .hljs-number, .hljs-constant, .hljs-class .hljs-title, .hljs-parent, .hljs-type, .hljs-link_reference {
+    color: #b58900;
+}
+
+#markdown .hljs-number, .hljs-command, .hljs-string, .hljs-tag .hljs-value, .hljs-rules .hljs-value, .hljs-phpdoc, .hljs-dartdoc, .tex .hljs-formula, .hljs-regexp, .hljs-hexcolor, .hljs-link_url {
+    color: #2aa198;
+}
