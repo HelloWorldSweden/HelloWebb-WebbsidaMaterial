@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#F0FFFF;
+  }
+  
+  header {
+    background-image: url("https://idigitalcitizen.files.wordpress.com/2010/11/ron-weasley-harry-potter-hermione-granger-hp6-dvd-1280x1024.jpg");
+    background-size: cover;
+    padding-bottom: 25%;
+    color: #fff;
+  }
+  
+  .artist {
+    background-image: url("https://pmcvariety.files.wordpress.com/2019/04/avengers-endgame-world-premiere.jpg");
+    background-size: cover;
+    padding-bottom: 25%;
+    color: #fff;
+  }
+  header h2, header p {
+    background-color: rgba(0,0,0,0.5);
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  header p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 26px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: red;
+  }
+  li a.active {
+      background-color: rgb(56, 92, 201);
+  }
+  
+  
+  
+  
+  a {
+    cursor: pointer;
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 150px;
+  }
+  
+  h2, h3, h4 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  button {
+    background: none;
+    border: 4px solid #C27BA0;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 19px;
+  }
+  
+  .info img {
+    width: 50%;
+    vertical-align: middle;
+  }
+  
+  .music-text {
+    width: 40%;
+    padding: 4% 5%;
+    margin: 0;
+    
+  }
+  
+  .ingress {
+    font-weight: 300;
+    font-size: 15px;
+    
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .schedule {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+  }
+  
+  .message {
+    background-color: #E04C70;
+    color: #fff;
+    margin: 0;
+    padding: 5% 10%;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 2% 5%;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    background-color: #eee;
+  }
+  
+  
+  #artists {
+    padding: 2% 10% 5%;
+    text-align: center;
+  }
+  
+  
+  #artists img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30%;
+    margin-top: 70px;
+  }
+  
+  .font{
+    font-family: 'Pacifico', cursive;
+  }
+  
